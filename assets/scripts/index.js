@@ -26,8 +26,7 @@ function createPost(title, body) {
       const postElement = document.createElement('div');
       postElement.innerHTML = `
         <h2 class = "heading">${post.title}</h2>
-        <p class = "paragraph">${post.body}</p>
-      `;
+        <p class = "paragraph">${post.body}</p>`;
       postContainer.appendChild(postElement);
     })
     .catch(error => console.log(error));
