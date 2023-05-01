@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.wrapper {
+    width: 100vw;
+    font-family: 'Open Sans';
+}
+.logo {
+    width: 8%;
+    margin-right: 30px;
+}
+.form__task{
+    width: 50vw;
+    padding-left: 20px;
+    }
+#show__tasks {
+    width: 40%;
+    border-top: 1px solid black;
+    padding-left: 20px;
+    }
+#submit {
+    width:130px;
+    height:40px;
+    background-color: rgb(113,215,254);
+    border: none;
+    cursor: pointer;
+}
+#postbody {
+    width: 400px;
+    height:34px;
+    margin-right: 20px;
+}
+#posttitle {
+    width: 100px;
+    height: 34px;
+    margin-right: 20px;
+}
+.heading, .paragraph {
+    margin-left: 20px;
+}
+
